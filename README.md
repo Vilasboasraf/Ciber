@@ -56,7 +56,7 @@ O compartilhamento permitia login anônimo sem senha, expondo arquivos armazenad
 
 ---
 
-## 2. Ataque de Força Bruta com Medusa
+# 2. Ataque de Força Bruta com Medusa
 
 Para testar a segurança da autenticação no serviço SSH, foi executado um ataque de força bruta utilizando o Medusa com wordlists de usuários e senhas conhecidas.
 
@@ -87,11 +87,11 @@ ssh msfadmin@192.168.56.102
 
 ---
 
-## 3. Pós-Exploração e Arquivos Vulneráveis
+# 3. Pós-Exploração e Arquivos Vulneráveis
 
 Com o acesso ao sistema estabelecido, foram inspecionados diretórios de configuração e armazenamento para verificar falhas de permissão.
 
-### Chaves SSH
+# Chaves SSH
 Verificação dos arquivos e permissões nos diretórios do SSH:
 
 ```bash
@@ -113,7 +113,7 @@ Os arquivos das bases de dados em `/var/lib/mysql/` e o arquivo `my.cnf` estavam
 
 ---
 
-## 4. Pontos de Correção (Hardening)
+# 4. Pontos de Correção
 
 - **SSH:** Desabilitar autenticação por senha (`PasswordAuthentication no` no `sshd_config`), exigir uso de chaves criptográficas e implementar bloqueio de tentativas com `Fail2Ban`.
 - **Permissões de Chaves:** Restringir o acesso às chaves privadas apenas ao proprietário (`chmod 700 ~/.ssh` e `chmod 600 ~/.ssh/id_rsa`).
