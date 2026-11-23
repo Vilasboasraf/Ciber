@@ -1,7 +1,7 @@
 # Cibersecurity
 Projetos de Cibersegurança
 
-# Lab Pentest: Enumeração SMB, Brute Force SSH e Pós-Exploração
+# Laboratório Pentest: Enumeração SMB, Brute Force SSH e Pós-Exploração
 
 Documentação de teste de intrusão realizado em ambiente de laboratório local e isolado utilizando máquinas virtuais. O foco do exercício foi mapear serviços expostos, enumerar compartilhamentos de rede, explorar credenciais fracas via força bruta e identificar arquivos sensíveis mal configurados após o acesso inicial.
 
