@@ -1,5 +1,5 @@
-# Cibersecurity
-Projetos de Cibersegurança
+# Projeto de Brute Force
+Medusa
 
 # Laboratório Pentest: Enumeração SMB, Brute Force SSH e Pós-Exploração
 
