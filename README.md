@@ -1,4 +1,4 @@
-# Ciber
+# Cibersecurity
 Projetos de Cibersegurança
 
 # Lab Pentest: Enumeração SMB, Brute Force SSH e Pós-Exploração
